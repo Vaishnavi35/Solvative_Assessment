@@ -73,6 +73,11 @@ input:focus{
     border-bottom: 1px solid rgb(222, 226, 230);
   }
 
+  .table_msg{
+    height: 40px;
+    align-items: center;
+  }
+
   .capitalize{
     text-transform: capitalize;
   }

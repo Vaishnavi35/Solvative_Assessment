@@ -76,7 +76,7 @@ useEffect(() => {
 
   const searchResultRender = () => {
     if (searchVal.length === 0 || searchVal === undefined || searchVal === null) {
-        return <tr>Start searching</tr>;
+        return <tr className='table_msg flex'>Start searching</tr>;
     } else {
         if(cityData.length > 0){
 
@@ -91,7 +91,7 @@ useEffect(() => {
             ));
 
         }else{
-            return <tr>No result found</tr>
+            return <tr className='table_msg flex'>No result found</tr>
         }
         
     }
